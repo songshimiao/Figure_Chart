@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
   <diagram name="第 1 页" id="hSZzOovucL0i58xrLDIp">
-    <mxGraphModel dx="2037" dy="1201" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="1" shadow="0">
+    <mxGraphModel dx="2852" dy="1682" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -721,7 +721,7 @@
         <mxCell id="If5K6mNDhJe0Mf0MPXsV-110" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;return R_cam2gripper, T_cam2gripper&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="If5K6mNDhJe0Mf0MPXsV-112" vertex="1">
           <mxGeometry x="984" y="202.5" width="195" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="iVMVFfcwvCz1OIw7NUe1-1" value="研究内容大框架V2.0" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iVMVFfcwvCz1OIw7NUe1-1" value="研究内容大框架V2.0" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2395" y="5" width="815" height="480" as="geometry" />
         </mxCell>
         <mxCell id="b1oqNn9FPAe5mHU45Uvz-100" value="" style="group" parent="iVMVFfcwvCz1OIw7NUe1-1" vertex="1" connectable="0">
@@ -991,6 +991,226 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="b1oqNn9FPAe5mHU45Uvz-99" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="b1oqNn9FPAe5mHU45Uvz-100" source="b1oqNn9FPAe5mHU45Uvz-87" target="b1oqNn9FPAe5mHU45Uvz-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-91" value="手眼标定研究内容" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2395" y="505" width="705" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-90" value="" style="group" vertex="1" connectable="0" parent="BZNp4v860nxms6cS41Oj-91">
+          <mxGeometry x="21.25" y="37.5" width="665.75" height="385" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-2" value="&lt;font face=&quot;宋体&quot;&gt;手眼标定&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BZNp4v860nxms6cS41Oj-90">
+          <mxGeometry x="265" y="130" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-30" value="" style="group" vertex="1" connectable="0" parent="BZNp4v860nxms6cS41Oj-90">
+          <mxGeometry x="395" width="210" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-12" value="&lt;font face=&quot;宋体&quot;&gt;传统标定方法&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BZNp4v860nxms6cS41Oj-30">
+          <mxGeometry y="27.5" width="85" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-16" value="&lt;font face=&quot;Times New Roman&quot;&gt;Tsai-Lenz(&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;分离式&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;)&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-30">
+          <mxGeometry x="113" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-17" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BZNp4v860nxms6cS41Oj-16" parent="BZNp4v860nxms6cS41Oj-30" source="BZNp4v860nxms6cS41Oj-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-20" value="&lt;font face=&quot;Times New Roman&quot;&gt;Daniilidis(&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;同步式&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;)&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-30">
+          <mxGeometry x="113" y="30" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BZNp4v860nxms6cS41Oj-20" parent="BZNp4v860nxms6cS41Oj-30" source="BZNp4v860nxms6cS41Oj-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="95" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-31" value="" style="group" vertex="1" connectable="0" parent="BZNp4v860nxms6cS41Oj-90">
+          <mxGeometry x="395" y="65" width="186.25" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-19" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-31" source="BZNp4v860nxms6cS41Oj-13" target="BZNp4v860nxms6cS41Oj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-13" value="&lt;font face=&quot;宋体&quot;&gt;快速标定方法&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BZNp4v860nxms6cS41Oj-31">
+          <mxGeometry y="37.5" width="85" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-18" value="&lt;font face=&quot;Times New Roman&quot;&gt;AX=B&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;简化&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-31">
+          <mxGeometry x="108.25" width="68.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-25" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-31" source="BZNp4v860nxms6cS41Oj-22" target="BZNp4v860nxms6cS41Oj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-22" value="&lt;font face=&quot;Times New Roman&quot;&gt;NBV&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;策略&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-31">
+          <mxGeometry x="108.25" y="20" width="66.75" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-28" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-31" source="BZNp4v860nxms6cS41Oj-23" target="BZNp4v860nxms6cS41Oj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-23" value="&lt;div&gt;&lt;font face=&quot;宋体&quot;&gt;基于点云配准&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-31">
+          <mxGeometry x="108.25" y="72.5" width="78" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-29" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-31" source="BZNp4v860nxms6cS41Oj-24" target="BZNp4v860nxms6cS41Oj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-24" value="&lt;br&gt;&lt;div&gt;&lt;font face=&quot;宋体&quot;&gt;单次运动标定&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-31">
+          <mxGeometry x="108.25" y="45" width="76.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-43" value="" style="group" vertex="1" connectable="0" parent="BZNp4v860nxms6cS41Oj-90">
+          <mxGeometry x="395" y="165" width="270.75" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-14" value="&lt;font face=&quot;宋体&quot;&gt;无标定板标定方法&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BZNp4v860nxms6cS41Oj-43">
+          <mxGeometry y="40" width="85" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-35" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-43" source="BZNp4v860nxms6cS41Oj-32" target="BZNp4v860nxms6cS41Oj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-32" value="&lt;font face=&quot;宋体&quot;&gt;基于机器人自身特征(机器人基座)&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-43">
+          <mxGeometry x="108" width="112" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-36" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-43" source="BZNp4v860nxms6cS41Oj-34" target="BZNp4v860nxms6cS41Oj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-42" value="" style="group" vertex="1" connectable="0" parent="BZNp4v860nxms6cS41Oj-43">
+          <mxGeometry x="108" y="45" width="162.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-39" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-42" source="BZNp4v860nxms6cS41Oj-33" target="BZNp4v860nxms6cS41Oj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-33" value="&lt;font face=&quot;宋体&quot;&gt;自编码器&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-42">
+          <mxGeometry x="77.75" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-34" value="&lt;font face=&quot;宋体&quot;&gt;学习型&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BZNp4v860nxms6cS41Oj-42">
+          <mxGeometry y="32" width="57" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-40" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-42" source="BZNp4v860nxms6cS41Oj-37" target="BZNp4v860nxms6cS41Oj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-37" value="&lt;font face=&quot;宋体&quot;&gt;潜在空间表示&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-42">
+          <mxGeometry x="77.75" y="25" width="85" height="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-41" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-42" source="BZNp4v860nxms6cS41Oj-38" target="BZNp4v860nxms6cS41Oj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-38" value="&lt;font face=&quot;宋体&quot;&gt;持续学习&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-42">
+          <mxGeometry x="77.75" y="50" width="62" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-55" value="" style="group" vertex="1" connectable="0" parent="BZNp4v860nxms6cS41Oj-90">
+          <mxGeometry x="395" y="285" width="242.25" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-15" value="&lt;font face=&quot;宋体&quot;&gt;基于采摘现场采集特征的标定方法&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BZNp4v860nxms6cS41Oj-55">
+          <mxGeometry y="47" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-52" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-55" source="BZNp4v860nxms6cS41Oj-46" target="BZNp4v860nxms6cS41Oj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-46" value="&lt;font face=&quot;Times New Roman&quot;&gt;TOF(&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;时间飞行&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;)&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;相机结合标定板&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-55">
+          <mxGeometry x="135" width="107.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-53" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-55" source="BZNp4v860nxms6cS41Oj-49" target="BZNp4v860nxms6cS41Oj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-49" value="&lt;font face=&quot;宋体&quot;&gt;深度学习用于目标识别与定位&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-55">
+          <mxGeometry x="135" y="35" width="107.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-54" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-55" source="BZNp4v860nxms6cS41Oj-51" target="BZNp4v860nxms6cS41Oj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-51" value="&lt;font face=&quot;宋体&quot;&gt;在线/自适应标定&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-55">
+          <mxGeometry x="135" y="70" width="107.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-56" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-90" source="BZNp4v860nxms6cS41Oj-12" target="BZNp4v860nxms6cS41Oj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-57" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-90" source="BZNp4v860nxms6cS41Oj-13" target="BZNp4v860nxms6cS41Oj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-58" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-90" source="BZNp4v860nxms6cS41Oj-14" target="BZNp4v860nxms6cS41Oj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-59" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-90" source="BZNp4v860nxms6cS41Oj-15" target="BZNp4v860nxms6cS41Oj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-84" value="" style="group" vertex="1" connectable="0" parent="BZNp4v860nxms6cS41Oj-90">
+          <mxGeometry width="216" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-60" value="&lt;font face=&quot;宋体&quot;&gt;当前研究瓶颈&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BZNp4v860nxms6cS41Oj-84">
+          <mxGeometry x="156" y="72.5" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-66" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-84" source="BZNp4v860nxms6cS41Oj-61" target="BZNp4v860nxms6cS41Oj-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-61" value="&lt;font face=&quot;宋体&quot;&gt;精度与鲁棒性的平衡&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-84">
+          <mxGeometry width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-67" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-84" source="BZNp4v860nxms6cS41Oj-62" target="BZNp4v860nxms6cS41Oj-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-62" value="&lt;font face=&quot;宋体&quot;&gt;实时性与在线适应能力&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-84">
+          <mxGeometry y="30" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-68" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-84" source="BZNp4v860nxms6cS41Oj-63" target="BZNp4v860nxms6cS41Oj-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-63" value="&lt;font face=&quot;宋体&quot;&gt;自然特征的利用&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-84">
+          <mxGeometry y="60" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-69" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-84" source="BZNp4v860nxms6cS41Oj-64" target="BZNp4v860nxms6cS41Oj-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-64" value="&lt;font face=&quot;宋体&quot;&gt;模型泛华与持续学习&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-84">
+          <mxGeometry y="90" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-70" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-84" source="BZNp4v860nxms6cS41Oj-65" target="BZNp4v860nxms6cS41Oj-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-65" value="&lt;font face=&quot;宋体&quot;&gt;多传感器融合&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="BZNp4v860nxms6cS41Oj-84">
+          <mxGeometry y="120" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-87" value="" style="group" vertex="1" connectable="0" parent="BZNp4v860nxms6cS41Oj-90">
+          <mxGeometry y="150" width="219" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-73" value="&lt;font face=&quot;宋体&quot;&gt;未来发展趋势&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="BZNp4v860nxms6cS41Oj-87">
+          <mxGeometry x="159" y="87.5" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-74" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-87" source="BZNp4v860nxms6cS41Oj-75" target="BZNp4v860nxms6cS41Oj-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-75" value="&lt;font face=&quot;宋体&quot;&gt;持续学习与自适应标定&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};container=0;" vertex="1" parent="BZNp4v860nxms6cS41Oj-87">
+          <mxGeometry width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-76" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-87" source="BZNp4v860nxms6cS41Oj-77" target="BZNp4v860nxms6cS41Oj-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-77" value="&lt;font face=&quot;宋体&quot;&gt;端到端控制策略&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};container=0;" vertex="1" parent="BZNp4v860nxms6cS41Oj-87">
+          <mxGeometry y="30" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-78" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-87" source="BZNp4v860nxms6cS41Oj-79" target="BZNp4v860nxms6cS41Oj-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-79" value="&lt;font face=&quot;宋体&quot;&gt;数字孪生技术集成&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};container=0;" vertex="1" parent="BZNp4v860nxms6cS41Oj-87">
+          <mxGeometry y="60" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-80" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-87" source="BZNp4v860nxms6cS41Oj-81" target="BZNp4v860nxms6cS41Oj-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-81" value="&lt;font face=&quot;宋体&quot;&gt;基于语义理解的标定&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};container=0;" vertex="1" parent="BZNp4v860nxms6cS41Oj-87">
+          <mxGeometry y="90" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-82" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-87" source="BZNp4v860nxms6cS41Oj-83" target="BZNp4v860nxms6cS41Oj-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-83" value="&lt;font face=&quot;宋体&quot;&gt;更少运动/单帧标定&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};container=0;" vertex="1" parent="BZNp4v860nxms6cS41Oj-87">
+          <mxGeometry y="120" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-86" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-87" source="BZNp4v860nxms6cS41Oj-85" target="BZNp4v860nxms6cS41Oj-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-85" value="&lt;font face=&quot;宋体&quot;&gt;机器人与农艺融合&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};container=0;" vertex="1" parent="BZNp4v860nxms6cS41Oj-87">
+          <mxGeometry y="150" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-88" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-90" source="BZNp4v860nxms6cS41Oj-60" target="BZNp4v860nxms6cS41Oj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZNp4v860nxms6cS41Oj-89" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="BZNp4v860nxms6cS41Oj-90" source="BZNp4v860nxms6cS41Oj-73" target="BZNp4v860nxms6cS41Oj-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
